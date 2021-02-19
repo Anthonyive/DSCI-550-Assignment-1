@@ -8,7 +8,21 @@ Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Yuchen Zhang
 
 ### Notes
 
-1. To run Apache Tika with GUI:
+1. Python virtual environment has been set up using `pipenv`. You need `pipenv` installed ([learn more](https://pipenv-fork.readthedocs.io/en/latest/)). Then run:
+
+   ```bash
+   pipenv install
+   ```
+
+   `pipenv` will install all python packages in the virtual environment. In the future, use
+
+   ```bash
+   pipenv install <wanted-package>
+   ```
+
+   to install a python package and it will keep track of what packages used in our project.
+
+2. To run Apache Tika with GUI:
 
    ```bash
    java -jar tika-app-2.0.0-ALPHA.jar
@@ -20,7 +34,7 @@ Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Yuchen Zhang
    java -jar tika-app-2.0.0-ALPHA.jar -J <file-name>
    ```
 
-2. `fradulent_emails.txt` has been converted to read-only. To modify the data, run this command in the data directory:
+3. `fradulent_emails.txt` has been converted to read-only. To modify the data, run this command in the data directory:
 
    ```bash
    new_file_name="<your-new-file-name>" bash -c 'cp fradulent_emails.txt ${new_file_name}; chmod 0644 ${new_file_name}'

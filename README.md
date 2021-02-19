@@ -2,7 +2,7 @@
 
 This is the assignment 1 from DSCI 550 Spring 2021 at USC Viterbi School of Engineering. This repo is collaborated by a group of six.
 
-Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Yuchen Zhang
+Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Xiuwen Zhang, Yuchen Zhang, Nat Zheng
 
 
 

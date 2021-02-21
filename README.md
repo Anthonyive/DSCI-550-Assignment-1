@@ -1,5 +1,19 @@
 # DSCI-550-Assignment-1
 
+![GitHub watchers](https://img.shields.io/github/watchers/Anthonyive/DSCI-550-Assignment-1?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/Anthonyive/DSCI-550-Assignment-1?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Anthonyive/DSCI-550-Assignment-1?style=social)
+
+![last commit](https://img.shields.io/github/last-commit/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
+![commit activity](https://img.shields.io/github/commit-activity/m/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
+![code size](https://img.shields.io/github/languages/code-size/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
+![repo size](https://img.shields.io/github/repo-size/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square)](https://www.python.org/)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=flat-square&logo=Jupyter)](https://jupyter.org/try)
+
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/Anthonyive/DSCI-550-Assignment-1/tensorflow?style=flat-square)
+
 This is the assignment 1 from DSCI 550 Spring 2021 at USC Viterbi School of Engineering. This repo is collaborated by a group of six.
 
 Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Xiuwen Zhang, Yuchen Zhang, Nat Zheng

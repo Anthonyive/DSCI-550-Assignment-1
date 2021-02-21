@@ -14,6 +14,8 @@
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
 ![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/Anthonyive/DSCI-550-Assignment-1/tensorflow?style=flat-square)
 
+^ Badges will be available once the repo changes to public.
+
 This is the assignment 1 from DSCI 550 Spring 2021 at USC Viterbi School of Engineering. This repo is collaborated by a group of six.
 
 Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Xiuwen Zhang, Yuchen Zhang, Nat Zheng

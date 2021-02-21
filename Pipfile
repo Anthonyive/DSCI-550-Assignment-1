@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 tika = "*"
+ipykernel = "*"
 
 [dev-packages]
 

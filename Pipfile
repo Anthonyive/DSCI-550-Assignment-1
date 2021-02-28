@@ -20,6 +20,7 @@ torchvision = {version = "==0.7.0", file = "https://download.pytorch.org/whl/tor
 sentencepiece = "*"
 pandas = "*"
 tqdm = "*"
+gdown = "*"
 
 [dev-packages]
 

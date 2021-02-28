@@ -123,4 +123,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore files
 **/.DS_Store
+notebooks/Models/

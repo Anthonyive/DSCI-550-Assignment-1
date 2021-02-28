@@ -50,3 +50,6 @@ Number one rule: DON'T mess up the `main` branch.
    ```
 
 5. Finally, GitHub will ask me to merge the code. You usually don't have to worry about that. If there are too many changes and you are sure what need to merge and how to merge, you can do it yourself, but let other people know.
+
+
+![haha](https://i.redd.it/qghk5de68sz21.jpg)

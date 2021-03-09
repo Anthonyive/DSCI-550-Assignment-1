@@ -126,4 +126,7 @@ dmypy.json
 
 # ignore files
 **/.DS_Store
-notebooks/Models/
+# exclude everything in here:
+notebooks/Downloads/*
+# exception to the rule:
+!notebooks/Downloads/.gitkeep

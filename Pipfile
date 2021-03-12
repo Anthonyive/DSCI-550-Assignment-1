@@ -24,6 +24,13 @@ gdown = "*"
 seaborn = "*"
 gitpython = "*"
 kaggle = "*"
+bs4 = "*"
+nltk = "*"
+language-tool-python = "*"
+truecase = "*"
+spellchecker = "*"
+geograpy3 = "*"
+google-cloud-language = "*"
 
 [dev-packages]
 

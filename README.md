@@ -16,10 +16,6 @@
 
 ^ Badges will be available once the repo changes to public.
 
-This is the assignment 1 from DSCI 550 Spring 2021 at USC Viterbi School of Engineering. This repo is collaborated by a group of six.
-
-Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Xiuwen Zhang, Yuchen Zhang, Nat Zheng
-
 ### Prerequisite
 
 1. Python virtual environment has been set up using `pipenv`. You need `pipenv` installed ([learn more about installation and usage](https://pipenv-fork.readthedocs.io/en/latest/)).
@@ -55,15 +51,41 @@ Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Xiuwen Zhang, Yuchen Zhang, N
 
    We have converted all flag options, but we mainly used `-t` option.
 
-2. **[Task 5]** Jupyter notebook in [Task 5](notebooks/Task5)
+2. **[Task 5]** Jupyter notebooks in [Task 5](notebooks/Task5)
 
    Just run through each cell in the notebooks, they either generate a new feature JSON file or upload each of the features to the Firebase, where our team store the data to. As long as you are using the virtual environment kernel we mentioned in the 0 step of Build Instructions, you should have the packages you need in your virtual environment.
 
-3. **[Task 6]** Jupyter notebook in [Task 6](notebooks/Task6)
+3. **[Task 6]** Jupyter notebooks in [Task 6](notebooks/Task6)
 
    Just run through each cell in the three notebooks, each notebook handles one dataset. We used firebase to store our data but we have accommodate the grader to have a local version by using json dump.
 
-4. 
+4. **[Task 7]** Export PDF files in [visualization directory](visualizations/tika-similarity). We offer circle packing and dynamic circle packing clustering visualizations.
+
+   Also, we have saved all the `circle.json` and `cluster.json` from each similarity metrics. 
+
+   To re-run the visualization:
+
+   - Step 0: copy [circle-packing-for-all.py](visualizations/tika-similarity/src/circle-packing-for-all.py) to the compiled [`tika-similarity` repo](https://github.com/chrismattmann/tika-similarity.git).
+
+   - ```bash
+     $ python3 circle-packing-for-all.py --inputCSV <path-to-tika-output-csv> --cluster 2
+     ```
+
+   - The above step generates `circle.json` and `cluster.json` files.
+
+   - ```bash
+     $ python3 -m http.server 8000
+     ```
+
+   - The above step start a localhost server at port 8000. Then open [dynamic circle packing](http://localhost:8000/dynamic-circlepacking.html) or [circle packing](http://localhost:8000/circlepacking.html) to see the visualizations.
+
+   Sample visualizations (edit-distance, dynamic circle packing): [edit-distance-viz](visualizations/tika-similarity/dynamic-circle-packing/edit-distance.pdf)
+
+   Sample visualizations (cosine, circle packing): [cosine-viz](visualizations/tika-similarity/circle-packing/cosine.pdf)
+
+5. **[Task 8]** TSV generation: Jupyter notebook [here](notebooks/Task7-TikaSimilarity/TSV generation & data for tika-smilarity.ipynb)
+
+   Output in the [data directory](data/additional-features/additional_features.tsv)
 
 ### Notes
 
@@ -89,4 +111,8 @@ Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Xiuwen Zhang, Yuchen Zhang, N
 
    The command will make a copy of the data that can be read and written.
 
-3. - 
+### About
+
+This is the assignment 1 from DSCI 550 Spring 2021 at USC Viterbi School of Engineering. This repo is collaborated by a group of six.
+
+Team members: Zixi Jiang, Peizhen Li, Xiaoyu Wang, Xiuwen Zhang, Yuchen Zhang, Nat Zheng

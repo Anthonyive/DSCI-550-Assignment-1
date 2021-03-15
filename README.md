@@ -6,9 +6,9 @@
 
 ![commit activity](https://img.shields.io/github/commit-activity/m/Anthonyive/DSCI-550-Assignment-1?style=flat-square) ![repo size](https://img.shields.io/github/repo-size/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
 
-^ Badges will be available once the repo changes to public.
-
 ![title-img](https://www.yeahhub.com/wp-content/uploads/2018/08/phishing-report.png)
+
+Project Report can be seen [here](Report.pdf).
 
 ## Prerequisite
 

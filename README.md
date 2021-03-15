@@ -1,28 +1,22 @@
 # DSCI-550-Assignment-1
 
-![GitHub watchers](https://img.shields.io/github/watchers/Anthonyive/DSCI-550-Assignment-1?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/Anthonyive/DSCI-550-Assignment-1?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Anthonyive/DSCI-550-Assignment-1?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/Anthonyive/DSCI-550-Assignment-1?style=social)![GitHub Repo stars](https://img.shields.io/github/stars/Anthonyive/DSCI-550-Assignment-1?style=social)![GitHub forks](https://img.shields.io/github/forks/Anthonyive/DSCI-550-Assignment-1?style=social)
 
-![last commit](https://img.shields.io/github/last-commit/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
-![commit activity](https://img.shields.io/github/commit-activity/m/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
-![code size](https://img.shields.io/github/languages/code-size/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
-![repo size](https://img.shields.io/github/repo-size/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square)](https://www.python.org/)
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=flat-square&logo=Jupyter)](https://jupyter.org/try)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=flat-square&logo=Jupyter)](https://jupyter.org/try)[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square)](https://www.python.org/)
 
-![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
-![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/Anthonyive/DSCI-550-Assignment-1/tensorflow?style=flat-square)
+![commit activity](https://img.shields.io/github/commit-activity/m/Anthonyive/DSCI-550-Assignment-1?style=flat-square)![repo size](https://img.shields.io/github/repo-size/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
 
 ^ Badges will be available once the repo changes to public.
 
-### Prerequisite
+![title-img](https://www.yeahhub.com/wp-content/uploads/2018/08/phishing-report.png)
+
+## Prerequisite
 
 1. Python virtual environment has been set up using `pipenv`. You need `pipenv` installed ([learn more about installation and usage](https://pipenv-fork.readthedocs.io/en/latest/)).
-2. Even though we have converted the data into json files using Tika, you may want to do it yourself. To learn more, check out the notes we have written below and its [documentations.](http://tika.apache.org/1.25/gettingstarted.html)
+2. Even though we have converted the data into json files using Tika, you ßmay want to do it yourself. To learn more, check out the notes we have written below and its [documentations.](http://tika.apache.org/1.25/gettingstarted.html)
 3. There are several other packages/tools you may want to use along the way. You should check out the [instruction about this assignment](docs/DSCI550_Spring2021_HW_BIGDATA_PHISHING.pdf)
 
-### Build Instructions
+## Build Instructions
 
 0. First of foremost, build up the `pipenv` environment by running `pipenv install` command in this working directory. We are using Jupyter notebooks for all of our coding, so you may want to install the ipykernel as well. To do so:
 
@@ -77,7 +71,7 @@
      $ python3 -m http.server 8000
      ```
 
-   - The above step start a localhost server at port 8000. Then open [dynamic circle packing](http://localhost:8000/dynamic-circlepacking.html) or [circle packing](http://localhost:8000/circlepacking.html) to see the visualizations.
+   - The above step starts a localhost server at port 8000. Then open [dynamic circle packing](http://localhost:8000/dynamic-circlepacking.html) or [circle packing](http://localhost:8000/circlepacking.html) to see the visualizations.
 
    Sample visualizations (edit-distance, dynamic circle packing): [edit-distance-viz](visualizations/tika-similarity/dynamic-circle-packing/edit-distance.pdf)
 
@@ -87,7 +81,7 @@
 
    Output in the [data directory](data/additional-features/additional_features.tsv)
 
-### Notes
+## Notes
 
 1. Python virtual environment has been set up using `pipenv`. You need `pipenv` installed ([learn more](https://pipenv-fork.readthedocs.io/en/latest/)). Then run:
 
@@ -111,7 +105,7 @@
 
    The command will make a copy of the data that can be read and written.
 
-### About
+## About
 
 This is the assignment 1 from DSCI 550 Spring 2021 at USC Viterbi School of Engineering. This repo is collaborated by a group of six.
 

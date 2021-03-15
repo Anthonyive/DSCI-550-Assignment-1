@@ -31,20 +31,19 @@
    Convert tika output to json:
 
    ```bash
-   java -jar tika-app-2.0.0-ALPHA.jar -J -t -r data/fradulent_emails.txt >
-   data/fradulent_emails_t.json
+   $ java -jar tika-app-2.0.0-ALPHA.jar -J -t -r data/fradulent_emails.txt > data/fradulent_emails_t.json
    ```
-
-   Explanation ([learn more](http://tika.apache.org/1.25/gettingstarted.html)): 
-
-   - `-J` is recursive JSON.
+   
+Explanation ([learn more](http://tika.apache.org/1.25/gettingstarted.html)): 
+   
+- `-J` is recursive JSON.
      - *[doc]* -J  or --jsonRecursive Output metadata and content from all embedded files (choose content type with -x, -h, -t or -m; default is -x)
    - `-t` is output plain text content.
      - *[doc]*  -t  or --text          Output plain text content
    - `-r` is pretty print.
-
-   We have converted all flag options, but we mainly used `-t` option.
-
+   
+We have converted all flag options, but we mainly used `-t` option.
+   
 2. **[Task 5]** Jupyter notebooks in [Task 5](notebooks/Task5)
 
    Just run through each cell in the notebooks, they either generate a new feature JSON file or upload each of the features to the Firebase, where our team store the data to. As long as you are using the virtual environment kernel we mentioned in the 0 step of Build Instructions, you should have the packages you need in your virtual environment.
@@ -88,7 +87,7 @@ Firebase URL: `https://copydsci550.firebaseio.com/`
 We stored additional data in firebase. There is a local backup [here](data/additional-features/additional-features.json). If you want to access the data using REST API, you can use `curl`:
 
 ```bash
-curl '<firebase-URL>.json'
+$ curl '<firebase-URL>.json'
 ```
 
 ## Notes
@@ -96,13 +95,13 @@ curl '<firebase-URL>.json'
 1. Python virtual environment has been set up using `pipenv`. You need `pipenv` installed ([learn more](https://pipenv-fork.readthedocs.io/en/latest/)). Then run:
 
    ```bash
-   pipenv install
+   $ pipenv install
    ```
 
    `pipenv` will install all python packages in the virtual environment. In the future, use
 
    ```bash
-   pipenv install <wanted-package>
+   $ pipenv install <wanted-package>
    ```
 
    to install a python package and it will keep track of what packages used in our project.
@@ -110,7 +109,7 @@ curl '<firebase-URL>.json'
 2. `fradulent_emails.txt` has been converted to read-only. To modify the data, run this command in the data directory:
 
    ```bash
-   new_file_name="<your-new-file-name>" bash -c 'cp fradulent_emails.txt ${new_file_name}; chmod 0644 ${new_file_name}'
+   $ new_file_name="<your-new-file-name>" bash -c 'cp fradulent_emails.txt ${new_file_name}; chmod 0644 ${new_file_name}'
    ```
 
    The command will make a copy of the data that can be read and written.

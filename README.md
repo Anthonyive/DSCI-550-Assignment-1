@@ -81,6 +81,16 @@
 
    Output in the [data directory](data/additional-features/additional_features.tsv)
 
+## How to Access Additional Data
+
+Firebase URL: `https://copydsci550.firebaseio.com/`
+
+We stored additional data in firebase. There is a local backup [here](data/additional-features/additional-features.json). If you want to access the data using REST API, you can use `curl`:
+
+```bash
+curl '<firebase-URL>.json'
+```
+
 ## Notes
 
 1. Python virtual environment has been set up using `pipenv`. You need `pipenv` installed ([learn more](https://pipenv-fork.readthedocs.io/en/latest/)). Then run:

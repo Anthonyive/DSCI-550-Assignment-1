@@ -115,7 +115,7 @@ $ curl '<firebase-URL>.json'
    The command will make a copy of the data that can be read and written.
    
 ## FAQ & Pull Requests
-Please feel free to fork the repo and giv eit a pull request. If you encounter any problem, feel free to [email me](mailto:yzhang71@usc.edu).
+Please feel free to fork the repo and give it a pull request. If you encounter any problem, feel free to [email me](mailto:yzhang71@usc.edu).
 
 ## About
 

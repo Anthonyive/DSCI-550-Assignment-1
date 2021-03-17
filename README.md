@@ -1,4 +1,4 @@
-# DSCI-550-Assignment-1
+# Analysis of Cyber Phishing Emails: Fraudulent Emails and Social Engineering.
 
 ![GitHub watchers](https://img.shields.io/github/watchers/Anthonyive/DSCI-550-Assignment-1?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/Anthonyive/DSCI-550-Assignment-1?style=social) ![GitHub forks](https://img.shields.io/github/forks/Anthonyive/DSCI-550-Assignment-1?style=social)
 

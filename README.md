@@ -2,9 +2,7 @@
 
 ![GitHub watchers](https://img.shields.io/github/watchers/Anthonyive/DSCI-550-Assignment-1?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/Anthonyive/DSCI-550-Assignment-1?style=social) ![GitHub forks](https://img.shields.io/github/forks/Anthonyive/DSCI-550-Assignment-1?style=social)
 
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=flat-square&logo=Jupyter)](https://jupyter.org/try) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square)](https://www.python.org/)
-
-![commit activity](https://img.shields.io/github/commit-activity/m/Anthonyive/DSCI-550-Assignment-1?style=flat-square) ![repo size](https://img.shields.io/github/repo-size/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=flat-square&logo=Jupyter)](https://jupyter.org/try) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square)](https://www.python.org/) ![commit activity](https://img.shields.io/github/commit-activity/m/Anthonyive/DSCI-550-Assignment-1?style=flat-square) ![repo size](https://img.shields.io/github/repo-size/Anthonyive/DSCI-550-Assignment-1?style=flat-square)
 
 ![title-img](https://www.yeahhub.com/wp-content/uploads/2018/08/phishing-report.png)
 

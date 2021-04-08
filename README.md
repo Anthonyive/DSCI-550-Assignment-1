@@ -14,7 +14,7 @@ Project Report can be seen [here](TEAM_GINGERDONKEY_BIGDATA.pdf).
 2. Even though we have converted the data into json files using Tika, you may want to do it yourself. To learn more, check out the notes we have written below and its [documentations.](http://tika.apache.org/1.25/gettingstarted.html)
 3. There are several other packages/tools you may want to use along the way. You should check out the [instruction about this assignment](docs/DSCI550_Spring2021_HW_BIGDATA_PHISHING.pdf)
 
-## Build Instructions
+## Usage
 
 0. First of foremost, build up the `pipenv` environment by running `pipenv install` command in this working directory. We are using Jupyter notebooks for all of our coding, so you may want to install the ipykernel as well. To do so:
 
